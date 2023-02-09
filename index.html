@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Login | Sign Up Form</h1>
+
+        <form class="form" id="form">
+            <div class="formControl">
+                <label for="userName">User Name</label>
+                <input type="text" id="userName" class="userName">
+                <i class="fa fa-check"></i>
+                <i class="fa fa-close"></i>
+                <small>Error Message</small>
+            </div>
+
+            <div class="formControl">
+                <label for="email">Email</label>
+                <input type="text" id="email" class="email">
+                <i class="fa fa-check"></i>
+                <i class="fa fa-close"></i>
+                <small>Error Message</small>
+            </div>
+
+            <div class="formControl">
+                <label for="password">Password</label>
+                <input type="password" id="password" class="password">
+                <i class="fa fa-check"></i>
+                <i class="fa fa-close"></i>
+                <small>Error Message</small>
+            </div>
+
+            <div class="formControl">
+                <label for="confirmPassword">Confirm Password</label>
+                <input type="password" id="confirmPassword" class="confirmPassword">
+                <i class="fa fa-check"></i>
+                <i class="fa fa-close"></i>
+                <small>Error Message</small>
+            </div>
+            <button type="submit" class="btn">Submit</button>
+        </form>
+    </div>
+
+    <script src="./main.js"></script>
+</body>
+</html>
